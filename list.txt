@@ -1,0 +1,28 @@
+! GitHub
+github.com##.rounded-2.p-3.color-border-default.border.color-bg-default.dashboard-changelog.mb-3
+github.com##.border-bottom.mb-5.feed-right-sidebar > .rounded-2.p-3.color-border-default.border.color-bg-default.mb-5
+github.com##.px-md-0.px-sm-3.px-3.col-lg-8.col-md-8.flex-auto > .d-md-flex
+
+!YouTube
+www.youtube.com##.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
+www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
+www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
+www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
+www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
+www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+
+!HN
+news.ycombinator.com##.comment:style(max-width: 70ch !important; overflow: hidden !important;)
+news.ycombinator.com##.c00:style(color: #3f3f3f !important;)
+news.ycombinator.com##.comhead:style(background: #e6e6df; font-weight: italic; color: #686868 !important;)
+news.ycombinator.com##.hnuser:style(background: #e6e6df; font-style: italic; color: #575757 !important;)
+news.ycombinator.com##html:style(filter:invert(100%) hue-rotate(180deg); background: white)
